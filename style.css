@@ -1,0 +1,129 @@
+nav{
+    padding:30px;
+    background-color:#222222;
+    
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+    border-color: white;
+}
+
+ul,li{
+    padding-left:10px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 400;  
+}
+#portfolio{
+    background-color:#222222;
+}
+#p1{
+    text-align: center;
+    padding-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d49b38;
+    font-size: 50px;
+    font-weight: 100; 
+}
+
+#p2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d49b38;
+    font-size: 20px;
+    font-weight: 100; 
+}
+
+#button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border:1px solid #d49b38;
+    color: #d49b38;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#button:hover{
+   background-color:#d49b38;
+   color: white;
+}
+
+#p3{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#222222;
+    font-size: 50px;
+    font-weight: 100; 
+}
+
+#contact{
+    background-color:#E1E1E1;
+}
+
+input{
+    background:#E1E1E1 ;
+    border: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #222222 ;
+  }
+
+  
+input[type=email] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #222222 ;
+ }
+
+ ::placeholder{
+    color: #222222;
+    font-weight: 400;
+ }
+
+ #formbtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
+    border-radius: 25px;
+    background-color: #222222;
+    color: #ffffff;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+i{
+    font-size: 30px;
+    color: #222222;
+}
+#instagram{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#icon{
+    text-decoration: none;
+}
+
+#zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#zoom-effect-container:hover img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
